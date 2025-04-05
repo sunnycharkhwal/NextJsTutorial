@@ -1,6 +1,6 @@
 // app/layout.js
 import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
+import "./styles/globals.css";
 
 // Load Google fonts using next/font (which is SSR-safe)
 const geistSans = Geist({
@@ -23,7 +23,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`}>
-      <body className="antialiased">{children}</body>
+      <body className="antialiased" cz-shortcut-listen="true">
+        {children}
+      </body>
     </html>
   );
 }

@@ -4,7 +4,7 @@ export default async function Blog({ params }) {
   const { blogID } = await params;
   return (
     <>
-      <div>page {blogID}</div>
+      <h1>page {blogID}</h1>
       <Link href="/">Home</Link>
     </>
   );

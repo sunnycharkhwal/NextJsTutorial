@@ -6,7 +6,7 @@ export default async function commentsid({ params }) {
   return (
     <>
       <h1>
-        Comments No <i style={{ color: "red" }}>{commentsID}</i> on
+        Comments No <i style={{ color: "red" }}>{commentsID}</i> on{" "}
         <span style={{ color: "blue" }}>{blogID}</span> page
       </h1>
       <Link href="/">Home</Link>

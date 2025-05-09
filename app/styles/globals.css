@@ -1,9 +1,19 @@
-/* @import "tailwindcss"; */
+@import "tailwindcss";
 /* app/globals.css */
 
 :root {
   --font-geist-sans: "Geist", sans-serif;
   --font-geist-mono: "Geist Mono", monospace;
+}
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+  /* list-style: none; */
+  /* line-height: 1.5;
+  user-select: auto;
+  transition: background-color 0.25s ease-in-out;
+  font-family: "Poppins"; */
 }
 
 body {

@@ -4,7 +4,7 @@ export default function AppDev() {
   return (
     <>
       <h1>app Development page</h1>
-      <Link href="/peges/services">Services</Link>
+      <Link href="/services">Services</Link>
     </>
   );
 }
